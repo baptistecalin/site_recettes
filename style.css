@@ -1,0 +1,152 @@
+*{
+    overflow: auto;
+}
+body{
+    background-color: #8BA1BB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+p.category{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.content{
+    background-color: white;
+    margin: 60px 10% 50px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+p.descritpion{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.centre{
+    text-align: center;
+    width: 100%;
+}
+
+div.category{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+div.separator{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.level{
+    position: relative;
+    
+}
+table.level{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #6C829DC0;
+    height: 80px;
+}
+table.level td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.level th{
+    font-size: 16x;
+    vertical-align: bottom;
+    padding: 4px;
+}
+
+img.level{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: #8BA1BB ;
+}
+
+div.col{
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.col h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+    
+}
+
+div.col1{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+div.col2{
+    float: right;
+}
+
+div.ingrediant p{
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+table.prepa td{
+    vertical-align: top;
+}
+
+table.prepa p.num{
+    background-color: #6C829D ;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+table.prepa td.prepa_step{
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+table.prepa tr{
+    height: 40px;
+}
